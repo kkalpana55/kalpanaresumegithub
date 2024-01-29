@@ -220,6 +220,12 @@ a:hover {
     width: 0.35cm;
     height: 0.35cm;
   }
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
   .jobPosition {
     display: flex;
     flex-direction: row;
