@@ -225,6 +225,21 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
 }
+.header {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.header img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add spacing between image and text */
+}
+
+.header h1 {
+  margin: 0; /* Remove default margin */
+  line-height: 1; /* Ensure the name is closer to the image */
+}
 
   .jobPosition {
     display: flex;
