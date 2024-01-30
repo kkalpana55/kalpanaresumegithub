@@ -6,6 +6,7 @@
     height: 100vh; /
   }
   .icon-button {
+    list-style: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +18,9 @@
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+.experience-item {
+  list-style: none;
 }
 .menu.special-list {
   list-style: none;
