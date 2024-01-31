@@ -19,6 +19,10 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.header h1 {
+  margin-right: 200px;  /* Remove default margin to prevent extra spacing */
+}
+
 .experience-item {
   list-style: none;
 }
@@ -135,7 +139,12 @@ a:hover {
     color: white;
   }
   .header h2 {
-    margin-left:10px; /* Adjust the margin to move "SDET" to the left */
+    text-align: left;
+    margin-right:1x/* Adjust the margin to move "SDET" to the left */
+}
+.header h1 {
+  
+  margin-right:5px /* Adjust the margin to move "SDET" to the left */
 }
   img {
     width: 4cm;
