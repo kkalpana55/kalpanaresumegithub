@@ -11,6 +11,26 @@
  
 }
 .header-right {
+  text-align: right;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 15px; /* Adjust as needed */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black; /* Adjust as needed */
+}
+
+.header-right {
   float: none;
 }
 .header-right {
