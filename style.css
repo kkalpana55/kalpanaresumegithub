@@ -16,6 +16,7 @@
 }
 
 .nav-list {
+  align-items: right;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -23,7 +24,7 @@
 
 .nav-item {
   display: inline-block;
-  margin-left: 15px; /* Adjust as needed */
+  margin-left: 75px; /* Adjust as needed */
 }
 
 .nav-link {
@@ -31,10 +32,9 @@
   color: black; /* Adjust as needed */
 }
 
+
 .header-right {
-  float: none;
-}
-.header-right {
+  align-items: right;
   float: right;
 }
 
