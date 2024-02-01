@@ -3,7 +3,8 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
-    height: 100vh; /
+    height: 100vh;
+    margin-bottom: 20px;  /
   }
   .center-container {
     display: inline-block;
@@ -231,7 +232,7 @@ a:hover {
     width: 4cm;
     height: 4cm;
     margin-bottom: 0.7cm;
-    border-radius: 50%;
+  
     border: 0.15cm solid white;
     object-fit: cover;
     object-position: 50% 50%;
@@ -329,6 +330,19 @@ a:hover {
     bottom: -0.2cm; /* change this after border removal */
     left: 0.05cm;
   }
+  .image-container {
+    width: 4cm;
+    height: 4cm;
+    overflow: hidden;
+ 
+    border: 0.15cm solid white;
+}
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
   .workExperience>ul>li::after {
     content: '';
     position: absolute;
