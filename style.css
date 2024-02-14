@@ -495,7 +495,7 @@ line-height: 1; /* Ensure the name is closer to the image */
   background-color: #f9f9f9;
 }
 .sidebar {
-  width: 250px; /* Adjust width as needed */
+  width: 350; /* Adjust width as needed */
   background-color: #37506c;
   color: #fff;
   padding: 20px;
@@ -520,7 +520,6 @@ line-height: 1; /* Ensure the name is closer to the image */
 }
 
 
-
 .bar {
   width: 50px;
   height: 3px;
@@ -531,9 +530,9 @@ line-height: 1; /* Ensure the name is closer to the image */
 
 
 .sidebar {
-  width: 300px; /* Adjust width as needed */
+  width: 250px; /* Adjust width as needed */
   background-color: #797a7b;
-  color: #101010;
+  color: #878383;
   padding: 20px;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -557,11 +556,11 @@ line-height: 1; /* Ensure the name is closer to the image */
 }
 
 .bar {
-  width: 150%;
+  width: 200%;
   height: 3px;
   background-color: #fff;
   margin: 4px 0;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .menu-items {
@@ -577,4 +576,33 @@ line-height: 1; /* Ensure the name is closer to the image */
   text-decoration: none;
   display: block;
   margin-bottom: 20px;
+}
+/* Styles for hamburger menu */
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #9c9898;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+/* Styles for sidebar */
+.sidebar {
+  position: fixed;
+  left: -250px; /* Hide sidebar by default */
+  width: 250px;
+  height: 100%;
+  background-color: #706c6c;
+  transition: 0.4s;
+  overflow-y: auto;
+}
+
+.open {
+  left: 0; /* Show sidebar when 'open' class is applied */
 }

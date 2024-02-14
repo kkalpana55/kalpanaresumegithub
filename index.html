@@ -46,13 +46,23 @@
             SDET
         </h1>
       
-            
+           
         
     </div>
+
+
+    <div class="container">
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar" style="color:#f9f9f9" ></div>
+            <div class="bar" style="color:#f9f9f9" ></div>
+            <div class="bar" style="color:#f9f9f9" ></div>
+        </div>     
         
     <div class="container">
         <!-- Sidebar menu -->
         <div class="sidebar" id="sidebar">
+            <button class="close-button" onclick="toggleMenu()">X</button>
             <div class="menu-toggle" onclick="toggleMenu()">
                 
                   
@@ -77,28 +87,14 @@
                     <p style="color:#f9f9f9" >Bsc Statistics-PSG CAS</p>
                     </ul>
             </div>
-         <script>
-    function toggleOptions() {
-        var options = document.getElementById("options");
-        var bars = document.querySelectorAll(".bar");
-        
-        options.classList.toggle("open");
-        bars.forEach(bar => bar.classList.toggle("open"));
-
-        // If the options menu is open, and the hamburger menu is clicked again, close the options menu
-        if (options.classList.contains("open")) {
-            document.addEventListener("click", function closeOptions(event) {
-                if (!event.target.closest(".container")) {
-                    options.classList.remove("open");
-                    bars.forEach(bar => bar.classList.remove("open"));
-                    document.removeEventListener("click", closeOptions);
-                }
-            });
-        }
-    }
-</script>
-
      
+
+<script>
+    function toggleMenu() {
+    var sidebar = document.getElementById("sidebar");
+    sidebar.classList.toggle("open");
+}
+</script>
      
 
    
